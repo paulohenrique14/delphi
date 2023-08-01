@@ -1,0 +1,63 @@
+object DataModule2: TDataModule2
+  OnCreate = DataModuleCreate
+  Height = 750
+  Width = 1000
+  PixelsPerInch = 120
+  object ConexaoBD: TFDConnection
+    Params.Strings = (
+      'Database=agenda'
+      'User_Name=root'
+      'Port=3307'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 80
+    Top = 72
+  end
+  object TBContatos: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = ConexaoBD
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'agenda.observacoes'
+    Left = 200
+    Top = 80
+    object TBContatosid: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+    end
+    object TBContatosname: TStringField
+      FieldName = 'name'
+      Origin = 'name'
+      Required = True
+      Size = 50
+    end
+    object TBContatosnumber: TStringField
+      FieldName = 'number'
+      Origin = 'number'
+      Required = True
+      Size = 16
+    end
+    object TBContatosblocked: TBooleanField
+      FieldName = 'blocked'
+      Origin = 'blocked'
+      Required = True
+    end
+    object TBContatosdata: TDateTimeField
+      FieldName = 'data'
+      Origin = 'data'
+      Required = True
+    end
+    object TBContatosobservacoes: TMemoField
+      FieldName = 'observacoes'
+      Origin = 'observacoes'
+      Required = True
+      BlobType = ftMemo
+    end
+  end
+  object DSContatos: TDataSource
+    DataSet = TBContatos
+    Left = 328
+    Top = 88
+  end
+end

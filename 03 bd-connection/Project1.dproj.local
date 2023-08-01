@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/24 19:14:33.000.095,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/24 20:06:50.000.727,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/24 20:07:20.000.833,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Paulo\Desktop\Master-View\Development\Delphi\projects\bd-connection\Unit1.pas</Transaction>
+    <Transaction>2023/07/24 20:07:20.000.833,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Paulo\Desktop\Master-View\Development\Delphi\projects\bd-connection\Unit1.dfm</Transaction>
+    <Transaction>2023/07/24 20:07:22.000.652,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Paulo\Desktop\Master-View\Development\Delphi\projects\bd-connection\Project1.dproj</Transaction>
+    <Transaction>2023/07/24 20:34:54.000.549,=C:\Users\Paulo\Desktop\Master-View\Development\Delphi\projects\bd-connection\Unit2.pas</Transaction>
+    <Transaction>2023/07/24 20:35:51.000.792,C:\Users\Paulo\Desktop\Master-View\Development\Delphi\projects\bd-connection\Unit2.pas=C:\Users\Paulo\Desktop\Master-View\Development\Delphi\projects\bd-connection\Unit2DB.pas</Transaction>
+    <Transaction>2023/07/24 20:35:51.000.792,C:\Users\Paulo\Desktop\Master-View\Development\Delphi\projects\bd-connection\Unit2.dfm=C:\Users\Paulo\Desktop\Master-View\Development\Delphi\projects\bd-connection\Unit2DB.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
