@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/08/06 12:24:31.296,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/06 15:05:06.954,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Estoque.dproj=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/08/06 15:05:21.477,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit1.dfm=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/08/06 15:05:21.477,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit1.pas=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/06 15:05:23.591,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Estoque.dproj=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Estoque.dproj</Transaction>
+    <Transaction>2023/08/06 15:08:19.367,=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit2.pas</Transaction>
+    <Transaction>2023/08/06 15:09:46.829,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\uPrincipal.pas=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit1.pas</Transaction>
+    <Transaction>2023/08/06 15:09:46.829,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\uPrincipal.dfm=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit1.dfm</Transaction>
+    <Transaction>2023/08/06 15:09:57.405,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\uCadProduto.dfm=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit2.dfm</Transaction>
+    <Transaction>2023/08/06 15:09:57.405,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\uCadProduto.pas=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit2.pas</Transaction>
+    <Transaction>2023/08/06 15:10:01.643,=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit1.pas</Transaction>
+    <Transaction>2023/08/06 15:10:08.599,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\uCadMovimentacao.pas=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit1.pas</Transaction>
+    <Transaction>2023/08/06 15:10:08.599,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\uCadMovimentacao.dfm=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit1.dfm</Transaction>
+    <Transaction>2023/08/06 15:11:41.434,=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit3.pas</Transaction>
+    <Transaction>2023/08/06 15:11:51.061,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\uConMovimentacao.pas=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit3.pas</Transaction>
+    <Transaction>2023/08/06 15:11:51.061,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\uConMovimentacao.dfm=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit3.dfm</Transaction>
+    <Transaction>2023/08/06 15:13:26.026,=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit1.pas</Transaction>
+    <Transaction>2023/08/06 15:13:31.005,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\uDm.pas=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit1.pas</Transaction>
+    <Transaction>2023/08/06 15:13:31.005,C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\uDm.dfm=C:\Users\Paulo\Desktop\Master-View\development\Delphi\projects\07 controle de estoque\Unit1.dfm</Transaction>
+  </Transactions>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="uPrincipal.pas"/>
+    <File Path="uPrincipal.dfm"/>
+    <File Path="uCadMovimentacao.pas"/>
+    <File Path="uCadMovimentacao.dfm"/>
+    <File Path="uCadProduto.pas"/>
+    <File Path="uCadProduto.dfm"/>
+    <File Path="uConMovimentacao.pas"/>
+    <File Path="uConMovimentacao.dfm"/>
+    <File Path="uDm.pas"/>
+    <File Path="uDm.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
