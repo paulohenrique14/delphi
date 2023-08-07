@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/24 19:14:33.000.095,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/01 19:06:50.511,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/01 19:49:46.772,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Calculadora.dproj=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/08/01 19:50:11.631,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\uPrincipal.dfm=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/08/01 19:50:11.631,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\uPrincipal.pas=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/01 19:58:36.535,C:\Users\Paulo\Desktop\Master-View\Development\Delphi\projects\06 calculator\uPrincipal.dfm=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\uPrincipal.dfm</Transaction>
+    <Transaction>2023/08/01 19:58:36.535,C:\Users\Paulo\Desktop\Master-View\Development\Delphi\projects\06 calculator\uPrincipal.pas=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\uPrincipal.pas</Transaction>
+    <Transaction>2023/08/01 19:58:37.844,C:\Users\Paulo\Desktop\Master-View\Development\Delphi\projects\06 calculator\Calculadora.dproj=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Calculadora.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
