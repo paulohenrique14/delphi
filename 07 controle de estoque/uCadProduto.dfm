@@ -2,8 +2,8 @@ object FrmCadProduto: TFrmCadProduto
   Left = 0
   Top = 0
   Caption = 'FrmCadProduto'
-  ClientHeight = 441
-  ClientWidth = 628
+  ClientHeight = 690
+  ClientWidth = 1024
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

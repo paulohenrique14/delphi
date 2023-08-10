@@ -2,8 +2,8 @@ object FrmCadMovimentacao: TFrmCadMovimentacao
   Left = 0
   Top = 0
   Caption = 'FrmCadMovimentacao'
-  ClientHeight = 690
-  ClientWidth = 1024
+  ClientHeight = 442
+  ClientWidth = 628
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

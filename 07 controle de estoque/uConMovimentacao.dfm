@@ -2,8 +2,8 @@ object FrmConMovimentacao: TFrmConMovimentacao
   Left = 0
   Top = 0
   Caption = 'FrmConMovimentacao'
-  ClientHeight = 442
-  ClientWidth = 628
+  ClientHeight = 690
+  ClientWidth = 1024
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
