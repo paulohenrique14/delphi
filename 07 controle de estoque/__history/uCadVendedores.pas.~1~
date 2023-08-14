@@ -1,15 +1,13 @@
-unit uPrincipal;
+unit uCadProduto;
 
 interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
 
 type
-  TFrmPrincipal = class(TForm)
-    pnlHeader: TPanel;
-    pnlContainer: TPanel;
+  TFrmCadProduto = class(TForm)
   private
     { Private declarations }
   public
@@ -17,7 +15,7 @@ type
   end;
 
 var
-  FrmPrincipal: TFrmPrincipal;
+  FrmCadProduto: TFrmCadProduto;
 
 implementation
 

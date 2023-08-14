@@ -18,7 +18,7 @@ object FrmPrincipal: TFrmPrincipal
     Width = 1024
     Height = 65
     Align = alTop
-    Caption = 'Car managment'
+    Caption = 'Controle de Estoque'
     Color = clHighlight
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -28,16 +28,7 @@ object FrmPrincipal: TFrmPrincipal
     ParentBackground = False
     ParentFont = False
     TabOrder = 0
-    ExplicitWidth = 1018
-  end
-  object pnlContainer: TPanel
-    Left = 0
-    Top = 65
-    Width = 1024
-    Height = 625
-    Align = alClient
-    TabOrder = 1
-    ExplicitLeft = -8
-    ExplicitTop = 17
+    ExplicitLeft = 8
+    ExplicitTop = 80
   end
 end

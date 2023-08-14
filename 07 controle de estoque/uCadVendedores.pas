@@ -1,4 +1,4 @@
-unit uPrincipal;
+unit uCadVendedores;
 
 interface
 
@@ -7,9 +7,9 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
 
 type
-  TFrmPrincipal = class(TForm)
-    pnlHeader: TPanel;
+  TFrmCadProduto = class(TForm)
     pnlContainer: TPanel;
+    pnlHeader: TPanel;
   private
     { Private declarations }
   public
@@ -17,7 +17,7 @@ type
   end;
 
 var
-  FrmPrincipal: TFrmPrincipal;
+  FrmCadProduto: TFrmCadProduto;
 
 implementation
 

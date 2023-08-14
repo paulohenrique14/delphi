@@ -30,14 +30,4 @@ object FrmPrincipal: TFrmPrincipal
     TabOrder = 0
     ExplicitWidth = 1018
   end
-  object pnlContainer: TPanel
-    Left = 0
-    Top = 65
-    Width = 1024
-    Height = 625
-    Align = alClient
-    TabOrder = 1
-    ExplicitLeft = -8
-    ExplicitTop = 17
-  end
 end

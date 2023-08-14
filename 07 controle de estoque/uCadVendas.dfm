@@ -1,7 +1,7 @@
-object FrmPrincipal: TFrmPrincipal
+object FrmCadMovimentacao: TFrmCadMovimentacao
   Left = 0
   Top = 0
-  Caption = 'FrmPrincipal'
+  Caption = 'FrmCadMovimentacao'
   ClientHeight = 690
   ClientWidth = 1024
   Color = clBtnFace
@@ -10,8 +10,17 @@ object FrmPrincipal: TFrmPrincipal
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
-  WindowState = wsMaximized
   TextHeight = 15
+  object pnlContainer: TPanel
+    Left = 0
+    Top = 65
+    Width = 1024
+    Height = 625
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = -8
+    ExplicitTop = 17
+  end
   object pnlHeader: TPanel
     Left = 0
     Top = 0
@@ -27,17 +36,7 @@ object FrmPrincipal: TFrmPrincipal
     Font.Style = []
     ParentBackground = False
     ParentFont = False
-    TabOrder = 0
-    ExplicitWidth = 1018
-  end
-  object pnlContainer: TPanel
-    Left = 0
-    Top = 65
-    Width = 1024
-    Height = 625
-    Align = alClient
     TabOrder = 1
-    ExplicitLeft = -8
-    ExplicitTop = 17
+    ExplicitWidth = 1018
   end
 end

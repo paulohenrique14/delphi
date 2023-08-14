@@ -11,16 +11,33 @@ object FrmDm: TFrmDm
       'Password=masterkey'
       'DriverID=FB')
     LoginPrompt = False
-    Left = 312
-    Top = 248
+    Left = 480
+    Top = 56
   end
   object FDTable1: TFDTable
     Connection = FDConnection1
-    Left = 464
-    Top = 256
+    Left = 632
+    Top = 64
   end
   object DataSource1: TDataSource
-    Left = 624
-    Top = 256
+    Left = 792
+    Top = 64
+  end
+  object Conexao: TSQLConnection
+    DriverName = 'Sqlite'
+    LoginPrompt = False
+    Params.Strings = (
+      'DriverUnit=Data.DbxSqlite'
+      
+        'DriverPackageLoader=TDBXSqliteDriverLoader,DBXSqliteDriver280.bp' +
+        'l'
+      
+        'MetaDataPackageLoader=TDBXSqliteMetaDataCommandFactory,DbxSqlite' +
+        'Driver280.bpl'
+      'FailIfMissing=True'
+      'Database=C:\Users\Paulo\Desktop\Master-View\development\db\db.db')
+    Connected = True
+    Left = 288
+    Top = 448
   end
 end

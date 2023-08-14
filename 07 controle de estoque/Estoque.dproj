@@ -102,15 +102,15 @@
             <Form>FrmPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="uCadProduto.pas">
+        <DCCReference Include="uCadVendedores.pas">
             <Form>FrmCadProduto</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="uCadMovimentacao.pas">
+        <DCCReference Include="uCadVendas.pas">
             <Form>FrmCadMovimentacao</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="uConMovimentacao.pas">
+        <DCCReference Include="uCadCarros.pas">
             <Form>FrmConMovimentacao</Form>
             <FormType>dfm</FormType>
         </DCCReference>

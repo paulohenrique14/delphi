@@ -9,7 +9,6 @@ uses
 type
   TFrmPrincipal = class(TForm)
     pnlHeader: TPanel;
-    pnlContainer: TPanel;
   private
     { Private declarations }
   public

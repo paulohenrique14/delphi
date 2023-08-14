@@ -3,9 +3,9 @@ program Estoque;
 uses
   Vcl.Forms,
   uPrincipal in 'uPrincipal.pas' {FrmPrincipal},
-  uCadVendedores in 'uCadVendedores.pas' {FrmCadProduto},
-  uCadVendas in 'uCadVendas.pas' {FrmCadMovimentacao},
-  uCadCarros in 'uCadCarros.pas' {FrmConMovimentacao},
+  uCadProduto in 'uCadProduto.pas' {FrmCadProduto},
+  uCadMovimentacao in 'uCadMovimentacao.pas' {FrmCadMovimentacao},
+  uConMovimentacao in 'uConMovimentacao.pas' {FrmConMovimentacao},
   uDm in 'uDm.pas' {FrmDm: TDataModule};
 
 {$R *.res}
