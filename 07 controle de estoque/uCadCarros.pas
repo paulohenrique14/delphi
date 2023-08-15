@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.FMTBcd, Data.DB, Datasnap.Provider,
-  Datasnap.DBClient, Data.SqlExpr, Vcl.ExtCtrls;
+  Datasnap.DBClient, Data.SqlExpr, Vcl.ExtCtrls, Vcl.Menus, Vcl.ComCtrls;
 
 type
   TFrmConMovimentacao = class(TForm)
@@ -21,6 +21,9 @@ type
     SQLCadastroCAR_NVO: TWideMemoField;
     pnlHeader: TPanel;
     pnlContainer: TPanel;
+    PageControl1: TPageControl;
+    TabCadastro: TTabSheet;
+    TabConsulta: TTabSheet;
   private
     { Private declarations }
   public

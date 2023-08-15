@@ -2,7 +2,7 @@ object FrmConMovimentacao: TFrmConMovimentacao
   Left = 0
   Top = 0
   Caption = 'FrmConMovimentacao'
-  ClientHeight = 690
+  ClientHeight = 715
   ClientWidth = 1024
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -33,14 +33,30 @@ object FrmConMovimentacao: TFrmConMovimentacao
     Left = 0
     Top = 65
     Width = 1024
-    Height = 625
+    Height = 650
     Align = alClient
     TabOrder = 1
-    ExplicitLeft = -8
-    ExplicitTop = 17
+    ExplicitWidth = 1018
+    ExplicitHeight = 616
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 65
+    Width = 1024
+    Height = 650
+    ActivePage = TabCadastro
+    Align = alClient
+    TabOrder = 2
+    ExplicitHeight = 625
+    object TabCadastro: TTabSheet
+      Caption = 'Cadastro'
+    end
+    object TabConsulta: TTabSheet
+      Caption = 'Consulta'
+      ImageIndex = 1
+    end
   end
   object SQLCadastro: TSQLDataSet
-    Active = True
     CommandText = 'SELECT *  FROM CARROS'
     MaxBlobSize = 1
     Params = <>
@@ -85,7 +101,6 @@ object FrmConMovimentacao: TFrmConMovimentacao
     end
   end
   object CDSCadastro: TClientDataSet
-    Active = True
     Aggregates = <>
     Params = <>
     ProviderName = 'DSPCadastro'
