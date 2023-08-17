@@ -12,9 +12,6 @@ uses
 
 type
   TFrmDm = class(TDataModule)
-    FDConnection1: TFDConnection;
-    FDTable1: TFDTable;
-    DataSource1: TDataSource;
     Conexao: TSQLConnection;
   private
     { Private declarations }

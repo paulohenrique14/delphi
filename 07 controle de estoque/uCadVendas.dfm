@@ -15,11 +15,10 @@ object FrmCadMovimentacao: TFrmCadMovimentacao
     Left = 0
     Top = 65
     Width = 1024
-    Height = 625
-    Align = alClient
+    Height = 552
+    Align = alTop
     TabOrder = 0
-    ExplicitLeft = -8
-    ExplicitTop = 17
+    ExplicitWidth = 1018
   end
   object pnlHeader: TPanel
     Left = 0
@@ -38,5 +37,23 @@ object FrmCadMovimentacao: TFrmCadMovimentacao
     ParentFont = False
     TabOrder = 1
     ExplicitWidth = 1018
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 618
+    Width = 1024
+    Height = 72
+    Align = alBottom
+    TabOrder = 2
+    ExplicitTop = 606
+    ExplicitWidth = 1018
+    object Button1: TButton
+      Left = 472
+      Top = 24
+      Width = 75
+      Height = 25
+      Caption = 'Button1'
+      TabOrder = 0
+    end
   end
 end

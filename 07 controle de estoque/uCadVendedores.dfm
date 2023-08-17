@@ -16,31 +16,10 @@ object FrmCadProduto: TFrmCadProduto
     Left = 0
     Top = 65
     Width = 1024
-    Height = 625
-    Align = alClient
+    Height = 552
+    Align = alTop
     TabOrder = 0
     ExplicitWidth = 1018
-    ExplicitHeight = 616
-    object PageControl1: TPageControl
-      Left = 1
-      Top = 1
-      Width = 1022
-      Height = 623
-      ActivePage = TabCadastro
-      Align = alClient
-      TabOrder = 0
-      ExplicitLeft = 0
-      ExplicitTop = 65
-      ExplicitWidth = 1024
-      ExplicitHeight = 625
-      object TabCadastro: TTabSheet
-        Caption = 'Cadastro'
-      end
-      object TabConsulta: TTabSheet
-        Caption = 'Consulta'
-        ImageIndex = 1
-      end
-    end
   end
   object pnlHeader: TPanel
     Left = 0
@@ -59,5 +38,23 @@ object FrmCadProduto: TFrmCadProduto
     ParentFont = False
     TabOrder = 1
     ExplicitWidth = 1018
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 618
+    Width = 1024
+    Height = 72
+    Align = alBottom
+    TabOrder = 2
+    ExplicitTop = 606
+    ExplicitWidth = 1018
+    object Button1: TButton
+      Left = 472
+      Top = 24
+      Width = 75
+      Height = 25
+      Caption = 'Button1'
+      TabOrder = 0
+    end
   end
 end
