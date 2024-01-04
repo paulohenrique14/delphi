@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/12/05 19:15:13.000.788,=C:\Users\paulo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/05 19:15:37.000.360,C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\uMain.pas=C:\Users\paulo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/05 19:15:37.000.360,C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\uMain.dfm=C:\Users\paulo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/12/05 19:15:39.000.018,C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\Project2.dproj=C:\Users\paulo\OneDrive\Documentos\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2023/12/05 19:16:40.000.701,=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\Unit1.pas</Transaction>
+    <Transaction>2023/12/05 19:16:50.000.149,C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\uContaBancaria.pas=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\Unit1.pas</Transaction>
+    <Transaction>2023/12/10 13:02:42.986,=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\Unit2.pas</Transaction>
+    <Transaction>2023/12/10 13:03:15.762,C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\uSecond.dfm=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\Unit2.dfm</Transaction>
+    <Transaction>2023/12/10 13:03:15.762,C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\uSecond.pas=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\Unit2.pas</Transaction>
+    <Transaction>2023/12/10 13:03:41.763,=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\Unit1.pas</Transaction>
+    <Transaction>2023/12/10 13:07:42.160,=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\Unit2.pas</Transaction>
+    <Transaction>2023/12/10 13:10:01.538,=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\Unit3.pas</Transaction>
+    <Transaction>2023/12/10 13:10:08.846,C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\uPessoa.pas=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\Unit3.pas</Transaction>
+    <Transaction>2023/12/10 13:10:16.003,C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\uUtils.pas=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\02 Encapsulamento\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

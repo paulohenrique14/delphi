@@ -1,0 +1,28 @@
+unit uPessoa;
+
+interface
+
+uses
+  System.SysUtils;
+
+
+type
+  TPessoa = class
+    private
+    FNome: String;
+    FDataNascimento: String;
+    public
+      property Nome: String read FNome write FNome;
+      property DataNascimento: String read FDataNascimento write FDataNascimento;
+      function idade: Integer;
+  end;
+implementation
+
+{ TPessoa }
+
+function TPessoa.idade: Integer;
+begin
+  Result :=
+end;
+
+end.

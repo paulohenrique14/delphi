@@ -1,0 +1,19 @@
+unit uCliente;
+
+interface
+
+uses
+  uPessoa;
+
+type
+  TCliente = class(TPessoa)
+    private
+    FCPF: String;
+    public
+      property CPF: String read FCPF write FCPF;
+
+  end;
+
+implementation
+
+end.

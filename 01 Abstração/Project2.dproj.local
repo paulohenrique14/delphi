@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/12/04 20:17:36.000.196,=C:\Users\paulo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/04 20:17:57.000.351,C:\Users\paulo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\01 exercises\uMain.dfm</Transaction>
+    <Transaction>2023/12/04 20:17:57.000.351,C:\Users\paulo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\01 exercises\uMain.pas</Transaction>
+    <Transaction>2023/12/04 20:18:19.000.904,C:\Users\paulo\OneDrive\Documentos\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\01 exercises\Project2.dproj</Transaction>
+    <Transaction>2023/12/04 20:18:23.000.273,=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\01 exercises\Unit1.pas</Transaction>
+    <Transaction>2023/12/04 20:18:40.000.078,C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\01 exercises\Unit1.pas=C:\Users\paulo\OneDrive\Área de Trabalho\Master View\Development\Codes\Delphi\delphi\01 exercises\uPessoa.pas</Transaction>
+  </Transactions>
+</BorlandProject>
