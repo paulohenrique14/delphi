@@ -1,0 +1,31 @@
+unit uPegaSerVivo;
+
+interface
+
+type
+  TPegaSerVivo<T> = class
+  private
+    FPerigo: String;
+    FTipo: String;
+    procedure SetPerigo(const Value: String);
+    procedure SetTipo(const Value: String);
+  published
+    property Tipo: String read FTipo write SetTipo;
+    property Perigo: String read FPerigo write SetPerigo;
+  end;
+
+implementation
+
+{ TPegaSerVivo<T> }
+
+procedure TPegaSerVivo<T>.SetPerigo(const Value: String);
+begin
+  FPerigo := Value;
+end;
+
+procedure TPegaSerVivo<T>.SetTipo(const Value: String);
+begin
+  FTipo := Value;
+end;
+
+end.

@@ -1,0 +1,88 @@
+unit uMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+
+  TForm1 = class(TForm)
+    BtnGeneric: TButton;
+    BtnGenericTwo: TButton;
+    BtnGenericTree: TButton;
+    procedure BtnGenericClick(Sender: TObject);
+    procedure BtnGenericTwoClick(Sender: TObject);
+    procedure BtnGenericTreeClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+uses uKeyValue, uPegaSerVivo, uHumano;
+
+procedure TForm1.BtnGenericClick(Sender: TObject);
+var
+  Valor: TKeyValue<Integer>;
+begin
+  Valor := TKeyValue<Integer>.Create;
+
+  try
+    Valor.Key   := '1';
+    Valor.Value := 1;
+
+    ShowMessage(Valor.Key + ' = ' + Valor.Value.ToString);
+  finally
+    Valor.Free;
+  end;
+end;
+
+procedure TForm1.BtnGenericTreeClick(Sender: TObject);
+var
+  mTipoSerVivo: TPegaSerVivo<TSerHumano>;
+  mHumano: TSerHumano;
+begin
+  mHumano := TSerHumano.Create(True);
+
+  mTipoSerVivo := TPegaServivo<TSerHumano>.Create;
+
+  try
+    mTipoSerVivo.Tipo := 'Humano';
+
+    mHumano.Nome := 'Paulo';
+
+    if mHumano.Armado then
+      mTipoSerVivo.Perigo := 'Sim';
+
+    ShowMessage('o ' + mHumano.Nome + 'está armado? ' + mTipoSerVivo.Perigo);
+  finally
+    mTipoSerVivo.Free;
+    mHumano.Free
+  end;
+end;
+
+procedure TForm1.BtnGenericTwoClick(Sender: TObject);
+var
+  mValor: TKeyValue<TForm>;
+begin
+  mValor := TKeyValue<TForm>.Create;
+
+  try
+    mValor.Key   := 'Formulário';
+    mValor.Value := Self;
+
+    ShowMessage(mValor.Key + ' =|= ' + mValor.Value.Name);
+  finally
+    mValor.Free;
+  end;
+end;
+end.
