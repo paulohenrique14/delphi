@@ -8,16 +8,33 @@ uses
 
 type
 
-  TForm1 = class(TForm)
+  TProduto = class
+  private
+    FDescricao: String;
+    procedure SetDescricao(const Value: String);
+  published
+    property Descricao: String read FDescricao write SetDescricao;
+    constructor create;
+  end;
+
+  TFrmMain = class(TForm)
     BtnGeneric: TButton;
     BtnGenericTwo: TButton;
     BtnGenericTree: TButton;
     BtnLista: TButton;
     Memo1: TMemo;
+    BtnEnum: TButton;
+    EdtNome: TEdit;
+    BtnVerificaNome: TButton;
+    LblNome: TLabel;
+    BtnTernario: TButton;
     procedure BtnGenericClick(Sender: TObject);
     procedure BtnGenericTwoClick(Sender: TObject);
     procedure BtnGenericTreeClick(Sender: TObject);
     procedure BtnListaClick(Sender: TObject);
+    procedure BtnEnumClick(Sender: TObject);
+    procedure BtnVerificaNomeClick(Sender: TObject);
+    procedure BtnTernarioClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -25,15 +42,25 @@ type
   end;
 
 var
-  Form1: TForm1;
+  FrmMain: TFrmMain;
 
 implementation
 
 {$R *.dfm}
 
-uses uKeyValue, uPegaSerVivo, uHumano, uLista;
+uses uKeyValue, uPegaSerVivo, uHumano, uLista, uComboBox, uUtilsPersonalizado;
 
-procedure TForm1.BtnGenericClick(Sender: TObject);
+procedure TFrmMain.BtnEnumClick(Sender: TObject);
+begin
+  FrmCadInformacao := TFrmCadInformacao.Create(Self);
+  try
+    FrmCadInformacao.ShowModal;
+  finally
+    FrmCadInformacao.Free;
+  end;
+end;
+
+procedure TFrmMain.BtnGenericClick(Sender: TObject);
 var
   Valor: TKeyValue<TForm>;
 begin
@@ -49,7 +76,7 @@ begin
   end;
 end;
 
-procedure TForm1.BtnGenericTreeClick(Sender: TObject);
+procedure TFrmMain.BtnGenericTreeClick(Sender: TObject);
 var
   mTipoSerVivo: TPegaSerVivo<TSerHumano>;
   mHumano: TSerHumano;
@@ -77,7 +104,7 @@ begin
   end;
 end;
 
-procedure TForm1.BtnGenericTwoClick(Sender: TObject);
+procedure TFrmMain.BtnGenericTwoClick(Sender: TObject);
 var
   mValor: TKeyValue<TForm>;
 begin
@@ -93,11 +120,10 @@ begin
   end;
 end;
 
-procedure TForm1.BtnListaClick(Sender: TObject);
+procedure TFrmMain.BtnListaClick(Sender: TObject);
 var
   mArray: TLista<Integer>;
   I: Integer;
-  m1 :
 begin
   mArray := TLista<Integer>.Create();
 
@@ -117,6 +143,41 @@ begin
 
   end;
 
+end;
+
+procedure TFrmMain.BtnTernarioClick(Sender: TObject);
+var
+  P1, P2, P3: TProduto;
+begin
+  P1 := TProduto.create;
+
+  try
+    P1.Descricao := 'Folha de Louro';
+
+    p3 := TUtils.IIF<TProduto>(not Assigned(P2), P2, TProduto.create);
+
+    ShowMessage(p3.Descricao);
+  finally
+    p1.Free;
+  end;
+end;
+
+procedure TFrmMain.BtnVerificaNomeClick(Sender: TObject);
+begin
+  LblNome.Caption := TUtils.IIF<String>(EdtNome.Text = 'PAULO', 'Bem vindo!', 'Você não é o Paulo');
+
+end;
+
+{ TProduto }
+
+constructor TProduto.create;
+begin
+  FDescricao := 'Manga';
+end;
+
+procedure TProduto.SetDescricao(const Value: String);
+begin
+  FDescricao := Value;
 end;
 
 end.

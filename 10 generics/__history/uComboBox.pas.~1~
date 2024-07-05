@@ -1,0 +1,24 @@
+unit uComboBox;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  TFrmEnumToList = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmEnumToList: TFrmEnumToList;
+
+implementation
+
+{$R *.dfm}
+
+end.

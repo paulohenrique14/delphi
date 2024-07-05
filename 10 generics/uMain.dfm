@@ -1,7 +1,7 @@
-object Form1: TForm1
+object FrmMain: TFrmMain
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'Principal'
   ClientHeight = 299
   ClientWidth = 635
   Color = clBtnFace
@@ -14,9 +14,16 @@ object Form1: TForm1
   Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
+  object LblNome: TLabel
+    Left = 504
+    Top = 147
+    Width = 121
+    Height = 13
+    AutoSize = False
+  end
   object BtnGeneric: TButton
-    Left = 160
-    Top = 48
+    Left = 80
+    Top = 24
     Width = 75
     Height = 25
     Caption = 'BtnGeneric'
@@ -24,8 +31,8 @@ object Form1: TForm1
     OnClick = BtnGenericClick
   end
   object BtnGenericTwo: TButton
-    Left = 288
-    Top = 48
+    Left = 176
+    Top = 24
     Width = 75
     Height = 25
     Caption = 'BtnGeneric 2'
@@ -33,16 +40,16 @@ object Form1: TForm1
     OnClick = BtnGenericTwoClick
   end
   object BtnGenericTree: TButton
-    Left = 160
-    Top = 128
+    Left = 272
+    Top = 24
     Width = 75
     Height = 25
     Caption = 'Generic3'
     TabOrder = 2
   end
   object BtnLista: TButton
-    Left = 312
-    Top = 128
+    Left = 368
+    Top = 24
     Width = 75
     Height = 25
     Caption = 'Adiciona Lista'
@@ -50,12 +57,47 @@ object Form1: TForm1
     OnClick = BtnListaClick
   end
   object Memo1: TMemo
-    Left = 224
+    Left = 304
     Top = 192
     Width = 185
     Height = 89
     Lines.Strings = (
       'Memo1')
     TabOrder = 4
+  end
+  object BtnEnum: TButton
+    Left = 80
+    Top = 55
+    Width = 75
+    Height = 25
+    Caption = 'Enumerador'
+    TabOrder = 5
+    OnClick = BtnEnumClick
+  end
+  object EdtNome: TEdit
+    Left = 304
+    Top = 144
+    Width = 121
+    Height = 21
+    CharCase = ecUpperCase
+    TabOrder = 6
+  end
+  object BtnVerificaNome: TButton
+    Left = 423
+    Top = 143
+    Width = 75
+    Height = 23
+    Caption = 'Verifica'
+    TabOrder = 7
+    OnClick = BtnVerificaNomeClick
+  end
+  object BtnTernario: TButton
+    Left = 176
+    Top = 55
+    Width = 75
+    Height = 25
+    Caption = 'Tern'#225'rio'
+    TabOrder = 8
+    OnClick = BtnTernarioClick
   end
 end
