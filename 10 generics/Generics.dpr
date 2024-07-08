@@ -10,7 +10,9 @@ uses
   uComboBox in 'uComboBox.pas' {FrmCadInformacao},
   uEnumToList in 'uEnumToList.pas',
   uEnumeradosGeral in 'uEnumeradosGeral.pas',
-  uUtilsPersonalizado in 'uUtilsPersonalizado.pas';
+  uUtilsPersonalizado in 'uUtilsPersonalizado.pas',
+  uConstructorConstraint in 'uConstructorConstraint.pas',
+  uListaFormulario in 'uListaFormulario.pas' {FrmLista};
 
 {$R *.res}
 
@@ -19,5 +21,6 @@ begin
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFrmMain, FrmMain);
   Application.CreateForm(TFrmCadInformacao, FrmCadInformacao);
+  Application.CreateForm(TFrmLista, FrmLista);
   Application.Run;
 end.

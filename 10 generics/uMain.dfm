@@ -2,8 +2,8 @@ object FrmMain: TFrmMain
   Left = 0
   Top = 0
   Caption = 'Principal'
-  ClientHeight = 299
-  ClientWidth = 635
+  ClientHeight = 395
+  ClientWidth = 696
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -99,5 +99,23 @@ object FrmMain: TFrmMain
     Caption = 'Tern'#225'rio'
     TabOrder = 8
     OnClick = BtnTernarioClick
+  end
+  object Button1: TButton
+    Left = 272
+    Top = 55
+    Width = 171
+    Height = 25
+    Caption = 'Constructor e Constraint'
+    TabOrder = 9
+    OnClick = Button1Click
+  end
+  object BtnListaFormulario: TButton
+    Left = 80
+    Top = 86
+    Width = 75
+    Height = 25
+    Caption = 'Ir para lista'
+    TabOrder = 10
+    OnClick = BtnListaFormularioClick
   end
 end

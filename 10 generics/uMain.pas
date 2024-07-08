@@ -28,6 +28,8 @@ type
     BtnVerificaNome: TButton;
     LblNome: TLabel;
     BtnTernario: TButton;
+    Button1: TButton;
+    BtnListaFormulario: TButton;
     procedure BtnGenericClick(Sender: TObject);
     procedure BtnGenericTwoClick(Sender: TObject);
     procedure BtnGenericTreeClick(Sender: TObject);
@@ -35,6 +37,8 @@ type
     procedure BtnEnumClick(Sender: TObject);
     procedure BtnVerificaNomeClick(Sender: TObject);
     procedure BtnTernarioClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure BtnListaFormularioClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -48,7 +52,8 @@ implementation
 
 {$R *.dfm}
 
-uses uKeyValue, uPegaSerVivo, uHumano, uLista, uComboBox, uUtilsPersonalizado;
+uses uKeyValue, uPegaSerVivo, uHumano, uLista, uComboBox, uUtilsPersonalizado,
+  uConstructorConstraint, uEnumeradosGeral, uListaFormulario;
 
 procedure TFrmMain.BtnEnumClick(Sender: TObject);
 begin
@@ -145,6 +150,16 @@ begin
 
 end;
 
+procedure TFrmMain.BtnListaFormularioClick(Sender: TObject);
+begin
+  FrmLista := TFrmLista.Create(Self);
+  try
+    FrmLista.ShowModal
+  finally
+    FrmLista.Free;
+  end;
+end;
+
 procedure TFrmMain.BtnTernarioClick(Sender: TObject);
 var
   P1, P2, P3: TProduto;
@@ -166,6 +181,18 @@ procedure TFrmMain.BtnVerificaNomeClick(Sender: TObject);
 begin
   LblNome.Caption := TUtils.IIF<String>(EdtNome.Text = 'PAULO', 'Bem vindo!', 'Você não é o Paulo');
 
+end;
+
+procedure TFrmMain.Button1Click(Sender: TObject);
+var
+  NFe: TNFe<TPessoa>;
+begin
+  NFe := TNFe<TPessoa>.Create;
+  try
+    NFe.GetGeneric.Nome := 'Paulo developer';
+  finally
+    NFe.Free;
+  end;
 end;
 
 { TProduto }

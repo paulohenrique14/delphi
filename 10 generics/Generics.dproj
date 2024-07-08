@@ -108,6 +108,11 @@
         <DCCReference Include="uEnumToList.pas"/>
         <DCCReference Include="uEnumeradosGeral.pas"/>
         <DCCReference Include="uUtilsPersonalizado.pas"/>
+        <DCCReference Include="uConstructorConstraint.pas"/>
+        <DCCReference Include="uListaFormulario.pas">
+            <Form>FrmLista</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
