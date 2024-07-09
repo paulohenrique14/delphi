@@ -1,0 +1,15 @@
+program TESTE_API;
+
+uses
+  Vcl.Forms,
+  uPrincipal in 'uPrincipal.pas' {FrmPrincipal},
+  Lib.BRASILAPI in 'Lib.BRASILAPI.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.Run;
+end.

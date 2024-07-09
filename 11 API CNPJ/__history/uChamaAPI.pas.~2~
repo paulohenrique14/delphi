@@ -1,0 +1,23 @@
+unit uChamaAPI;
+
+interface
+
+type
+  TChamaAPI = class       //primeiro chama a BRASIL API, se der errado chama a API WS
+    public
+      function ChamadaAPI: TInformacaoEmpresa;
+    private
+
+
+
+  end;
+
+const
+  C_URL_BRASILAPI = 'https://brasilapi.com.br/api/cnpj/v1/';
+  C_URL_RECEITAWS = 'https://receitaws.com.br/v1/cnpj/';
+
+implementation
+
+uses uInformacaoEmpresa;
+
+end.
