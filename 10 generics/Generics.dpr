@@ -12,7 +12,8 @@ uses
   uEnumeradosGeral in 'uEnumeradosGeral.pas',
   uUtilsPersonalizado in 'uUtilsPersonalizado.pas',
   uConstructorConstraint in 'uConstructorConstraint.pas',
-  uListaFormulario in 'uListaFormulario.pas' {FrmLista};
+  uListaFormulario in 'uListaFormulario.pas' {FrmLista},
+  uQueue in 'uQueue.pas' {FrmQueue};
 
 {$R *.res}
 
@@ -22,5 +23,6 @@ begin
   Application.CreateForm(TFrmMain, FrmMain);
   Application.CreateForm(TFrmCadInformacao, FrmCadInformacao);
   Application.CreateForm(TFrmLista, FrmLista);
+  Application.CreateForm(TFrmQueue, FrmQueue);
   Application.Run;
 end.

@@ -111,11 +111,20 @@ object FrmMain: TFrmMain
   end
   object BtnListaFormulario: TButton
     Left = 80
-    Top = 86
+    Top = 174
     Width = 75
     Height = 25
-    Caption = 'Ir para lista'
+    Caption = 'TList'
     TabOrder = 10
     OnClick = BtnListaFormularioClick
+  end
+  object BtnQueue: TButton
+    Left = 80
+    Top = 205
+    Width = 75
+    Height = 25
+    Caption = 'TQueue'
+    TabOrder = 11
+    OnClick = BtnQueueClick
   end
 end

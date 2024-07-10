@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2024/07/08 19:37:00.203,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/07/08 19:49:59.453,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\uPrincipal.dfm=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2024/07/08 19:49:59.453,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\uPrincipal.pas=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/07/08 19:50:03.254,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Project1.dproj=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2024/07/08 19:50:11.656,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\TESTE_API.dproj=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Project1.dproj</Transaction>
-    <Transaction>2024/07/08 19:50:16.704,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
-    <Transaction>2024/07/08 19:51:07.354,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Lib.BRASILAPI.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
-    <Transaction>2024/07/08 19:51:18.390,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
-    <Transaction>2024/07/08 19:52:00.312,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Lib.RECEITAWS.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
-    <Transaction>2024/07/08 19:53:29.803,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
-    <Transaction>2024/07/08 19:53:43.239,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Pkg.Json.DTO.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
-    <Transaction>2024/07/08 19:54:01.566,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
-    <Transaction>2024/07/08 19:54:06.773,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\uChamaAPI.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
-    <Transaction>2024/07/08 19:55:32.725,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
-    <Transaction>2024/07/08 19:55:46.362,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\uInformacaoEmpresa.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
+	<Transactions>
+    <Transaction>2024/07/08 19:37:00.000.203,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/08 19:49:59.000.453,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\uPrincipal.dfm</Transaction>
+    <Transaction>2024/07/08 19:49:59.000.453,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\uPrincipal.pas</Transaction>
+    <Transaction>2024/07/08 19:50:03.000.254,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Project1.dproj</Transaction>
+    <Transaction>2024/07/08 19:50:11.000.656,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Project1.dproj=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\TESTE_API.dproj</Transaction>
+    <Transaction>2024/07/08 19:50:16.000.704,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
+    <Transaction>2024/07/08 19:51:07.000.354,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Lib.BRASILAPI.pas</Transaction>
+    <Transaction>2024/07/08 19:51:18.000.390,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
+    <Transaction>2024/07/08 19:52:00.000.312,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Lib.RECEITAWS.pas</Transaction>
+    <Transaction>2024/07/08 19:53:29.000.803,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
+    <Transaction>2024/07/08 19:53:43.000.239,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Pkg.Json.DTO.pas</Transaction>
+    <Transaction>2024/07/08 19:54:01.000.566,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
+    <Transaction>2024/07/08 19:54:06.000.773,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\uChamaAPI.pas</Transaction>
+    <Transaction>2024/07/08 19:55:32.000.725,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas</Transaction>
+    <Transaction>2024/07/08 19:55:46.000.362,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\Unit1.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\11 API CNPJ\uInformacaoEmpresa.pas</Transaction>
   </Transactions>
 </BorlandProject>

@@ -1,0 +1,34 @@
+unit uQueue;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFrmQueue = class(TForm)
+    Memo1: TMemo;
+    Label1: TLabel;
+    EdtValor: TEdit;
+    BtnEnqueue: TButton;
+    BtnDequeue: TButton;
+    BtnExtract: TButton;
+    BtnPeek: TButton;
+    BtnTrimExcess: TButton;
+    BtnCount: TButton;
+    BtnCapacity: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmQueue: TFrmQueue;
+
+implementation
+
+{$R *.dfm}
+
+end.
