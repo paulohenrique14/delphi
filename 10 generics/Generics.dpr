@@ -13,7 +13,8 @@ uses
   uUtilsPersonalizado in 'uUtilsPersonalizado.pas',
   uConstructorConstraint in 'uConstructorConstraint.pas',
   uListaFormulario in 'uListaFormulario.pas' {FrmLista},
-  uQueue in 'uQueue.pas' {FrmQueue};
+  uQueue in 'uQueue.pas' {FrmQueue},
+  uPilha in 'uPilha.pas' {FrmPilha};
 
 {$R *.res}
 
@@ -24,5 +25,6 @@ begin
   Application.CreateForm(TFrmCadInformacao, FrmCadInformacao);
   Application.CreateForm(TFrmLista, FrmLista);
   Application.CreateForm(TFrmQueue, FrmQueue);
+  Application.CreateForm(TFrmPilha, FrmPilha);
   Application.Run;
 end.

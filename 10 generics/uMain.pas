@@ -31,6 +31,7 @@ type
     Button1: TButton;
     BtnListaFormulario: TButton;
     BtnQueue: TButton;
+    Button2: TButton;
     procedure BtnGenericClick(Sender: TObject);
     procedure BtnGenericTwoClick(Sender: TObject);
     procedure BtnGenericTreeClick(Sender: TObject);
@@ -41,6 +42,7 @@ type
     procedure Button1Click(Sender: TObject);
     procedure BtnListaFormularioClick(Sender: TObject);
     procedure BtnQueueClick(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -55,7 +57,7 @@ implementation
 {$R *.dfm}
 
 uses uKeyValue, uPegaSerVivo, uHumano, uLista, uComboBox, uUtilsPersonalizado,
-  uConstructorConstraint, uEnumeradosGeral, uListaFormulario, uQueue;
+  uConstructorConstraint, uEnumeradosGeral, uListaFormulario, uQueue, uPilha;
 
 procedure TFrmMain.BtnEnumClick(Sender: TObject);
 begin
@@ -205,6 +207,16 @@ begin
   finally
     NFe.Free;
   end;
+end;
+
+procedure TFrmMain.Button2Click(Sender: TObject);
+begin
+   FrmPilha := TFrmPilha.Create(Self);
+   try
+      FrmPilha.ShowModal;
+   finally
+      FrmPilha.Free;
+   end;
 end;
 
 { TProduto }

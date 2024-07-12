@@ -127,4 +127,13 @@ object FrmMain: TFrmMain
     TabOrder = 11
     OnClick = BtnQueueClick
   end
+  object Button2: TButton
+    Left = 80
+    Top = 236
+    Width = 75
+    Height = 25
+    Caption = 'Button2'
+    TabOrder = 12
+    OnClick = Button2Click
+  end
 end
