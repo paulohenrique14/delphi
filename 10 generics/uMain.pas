@@ -32,6 +32,8 @@ type
     BtnListaFormulario: TButton;
     BtnQueue: TButton;
     Button2: TButton;
+    BtnDictionary: TButton;
+    BtnInterfaces: TButton;
     procedure BtnGenericClick(Sender: TObject);
     procedure BtnGenericTwoClick(Sender: TObject);
     procedure BtnGenericTreeClick(Sender: TObject);
@@ -43,6 +45,8 @@ type
     procedure BtnListaFormularioClick(Sender: TObject);
     procedure BtnQueueClick(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure BtnDictionaryClick(Sender: TObject);
+    procedure BtnInterfacesClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -57,7 +61,18 @@ implementation
 {$R *.dfm}
 
 uses uKeyValue, uPegaSerVivo, uHumano, uLista, uComboBox, uUtilsPersonalizado,
-  uConstructorConstraint, uEnumeradosGeral, uListaFormulario, uQueue, uPilha;
+  uConstructorConstraint, uEnumeradosGeral, uListaFormulario, uQueue, uPilha,
+  uDictionary, uInterfaceGenerica;
+
+procedure TFrmMain.BtnDictionaryClick(Sender: TObject);
+begin
+   FrmDictionary := TFrmDictionary.Create(Self);
+   try
+      FrmDictionary.ShowModal;
+   finally
+      FrmDictionary.Free;
+   end;
+end;
 
 procedure TFrmMain.BtnEnumClick(Sender: TObject);
 begin
@@ -127,6 +142,16 @@ begin
   finally
     mValor.Free;
   end;
+end;
+
+procedure TFrmMain.BtnInterfacesClick(Sender: TObject);
+begin
+   FrmInterfaceGenerica :=  TFrmInterfaceGenerica.Create(Self);
+   try
+      FrmInterfaceGenerica.ShowModal;
+   finally
+      FrmInterfaceGenerica.Free;
+   end;
 end;
 
 procedure TFrmMain.BtnListaClick(Sender: TObject);

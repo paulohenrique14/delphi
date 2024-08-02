@@ -1,0 +1,49 @@
+unit uInterfaceGenerica;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+   IQualquerCoisa<T> = interface
+   ['{A8B2648A-A223-4018-8C8B-DCBD70BD4D9C}']
+
+      function Retorno : T;
+   end;
+
+   TQualquerCoisa<T> = class(TInterfacedObject, IQualquerCoisa<T>)
+      FValue: T;
+      procedure Adiciona(Valor: T);
+      function Retorno : T;
+   end;
+
+type
+  TFrmInterfaceGenerica = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmInterfaceGenerica: TFrmInterfaceGenerica;
+
+implementation
+
+{$R *.dfm}
+
+{ TQualquerCoisa<T> }
+
+procedure TQualquerCoisa<T>.Adiciona(Valor: T);
+begin
+
+end;
+
+function TQualquerCoisa<T>.Retorno: T;
+begin
+
+end;
+
+end.

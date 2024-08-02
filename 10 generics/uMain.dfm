@@ -132,8 +132,26 @@ object FrmMain: TFrmMain
     Top = 236
     Width = 75
     Height = 25
-    Caption = 'Button2'
+    Caption = 'TStack'
     TabOrder = 12
     OnClick = Button2Click
+  end
+  object BtnDictionary: TButton
+    Left = 80
+    Top = 267
+    Width = 75
+    Height = 25
+    Caption = 'TDictionary'
+    TabOrder = 13
+    OnClick = BtnDictionaryClick
+  end
+  object BtnInterfaces: TButton
+    Left = 312
+    Top = 304
+    Width = 75
+    Height = 25
+    Caption = 'Interfaces '
+    TabOrder = 14
+    OnClick = BtnInterfacesClick
   end
 end

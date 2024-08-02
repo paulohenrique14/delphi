@@ -14,7 +14,9 @@ uses
   uConstructorConstraint in 'uConstructorConstraint.pas',
   uListaFormulario in 'uListaFormulario.pas' {FrmLista},
   uQueue in 'uQueue.pas' {FrmQueue},
-  uPilha in 'uPilha.pas' {FrmPilha};
+  uPilha in 'uPilha.pas' {FrmPilha},
+  uDictionary in 'uDictionary.pas' {FrmDictionary},
+  uInterfaceGenerica in 'uInterfaceGenerica.pas' {FrmInterfaceGenerica};
 
 {$R *.res}
 
@@ -26,5 +28,7 @@ begin
   Application.CreateForm(TFrmLista, FrmLista);
   Application.CreateForm(TFrmQueue, FrmQueue);
   Application.CreateForm(TFrmPilha, FrmPilha);
+  Application.CreateForm(TFrmDictionary, FrmDictionary);
+  Application.CreateForm(TFrmInterfaceGenerica, FrmInterfaceGenerica);
   Application.Run;
 end.
