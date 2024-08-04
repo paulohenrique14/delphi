@@ -34,6 +34,7 @@ type
     Button2: TButton;
     BtnDictionary: TButton;
     BtnInterfaces: TButton;
+    BtnPonteiro: TButton;
     procedure BtnGenericClick(Sender: TObject);
     procedure BtnGenericTwoClick(Sender: TObject);
     procedure BtnGenericTreeClick(Sender: TObject);
@@ -47,6 +48,7 @@ type
     procedure Button2Click(Sender: TObject);
     procedure BtnDictionaryClick(Sender: TObject);
     procedure BtnInterfacesClick(Sender: TObject);
+    procedure BtnPonteiroClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -62,7 +64,7 @@ implementation
 
 uses uKeyValue, uPegaSerVivo, uHumano, uLista, uComboBox, uUtilsPersonalizado,
   uConstructorConstraint, uEnumeradosGeral, uListaFormulario, uQueue, uPilha,
-  uDictionary, uInterfaceGenerica;
+  uDictionary, uInterfaceGenerica, uPonteiro;
 
 procedure TFrmMain.BtnDictionaryClick(Sender: TObject);
 begin
@@ -187,6 +189,16 @@ begin
   finally
     FrmLista.Free;
   end;
+end;
+
+procedure TFrmMain.BtnPonteiroClick(Sender: TObject);
+begin
+   FrmPonteiro := TFrmPonteiro.Create(Self);
+   try
+      FrmPonteiro.ShowModal;
+   finally
+      FrmPonteiro.Free;
+   end;
 end;
 
 procedure TFrmMain.BtnQueueClick(Sender: TObject);

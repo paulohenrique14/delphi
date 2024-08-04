@@ -154,4 +154,13 @@ object FrmMain: TFrmMain
     TabOrder = 14
     OnClick = BtnInterfacesClick
   end
+  object BtnPonteiro: TButton
+    Left = 440
+    Top = 304
+    Width = 129
+    Height = 25
+    Caption = 'Ponteiros inteligentes'
+    TabOrder = 15
+    OnClick = BtnPonteiroClick
+  end
 end

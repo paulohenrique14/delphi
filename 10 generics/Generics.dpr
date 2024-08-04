@@ -16,7 +16,9 @@ uses
   uQueue in 'uQueue.pas' {FrmQueue},
   uPilha in 'uPilha.pas' {FrmPilha},
   uDictionary in 'uDictionary.pas' {FrmDictionary},
-  uInterfaceGenerica in 'uInterfaceGenerica.pas' {FrmInterfaceGenerica};
+  uInterfaceGenerica in 'uInterfaceGenerica.pas' {FrmInterfaceGenerica},
+  uPonteiro in 'uPonteiro.pas' {FrmPonteiro},
+  uSmartPoint in 'uSmartPoint.pas';
 
 {$R *.res}
 
@@ -30,5 +32,6 @@ begin
   Application.CreateForm(TFrmPilha, FrmPilha);
   Application.CreateForm(TFrmDictionary, FrmDictionary);
   Application.CreateForm(TFrmInterfaceGenerica, FrmInterfaceGenerica);
+  Application.CreateForm(TFrmPonteiro, FrmPonteiro);
   Application.Run;
 end.

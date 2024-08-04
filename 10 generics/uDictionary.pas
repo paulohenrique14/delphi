@@ -45,6 +45,7 @@ type
     procedure BtnClearClick(Sender: TObject);
     procedure BtnOnKeyNotifyClick(Sender: TObject);
     procedure BtnOnValueNotifyClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
    private
       Lista: TDictionary<Integer, TMembro>;
    public
@@ -154,6 +155,12 @@ begin
       Memo1.Lines.Add('Encontramos o ' + Membro.Nome)
    else
       Memo1.Lines.Add('Nada encontrado');
+
+end;
+
+procedure TFrmDictionary.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+   Lista.Free;
 end;
 
 procedure TFrmDictionary.FormCreate(Sender: TObject);
