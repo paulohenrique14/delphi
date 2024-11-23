@@ -10,8 +10,6 @@ object FrmMain: TFrmMain
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
-  PixelsPerInch = 96
   TextHeight = 13
   object EdtNome: TEdit
     Left = 208
@@ -42,5 +40,14 @@ object FrmMain: TFrmMain
     Width = 329
     Height = 118
     TabOrder = 3
+  end
+  object BtnCriaPessoaJuridica: TButton
+    Left = 656
+    Top = 88
+    Width = 75
+    Height = 25
+    Caption = 'Juridico'
+    TabOrder = 4
+    OnClick = BtnCriaPessoaJuridicaClick
   end
 end

@@ -1,13 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2024/08/03 14:14:46.919,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/08/03 14:15:15.744,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\uMain.dfm=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2024/08/03 14:15:15.744,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\uMain.pas=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/08/03 14:16:19.957,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\ProjetoInterface.dproj=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2024/08/03 14:17:18.312,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
-    <Transaction>2024/08/03 14:20:36.690,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\uPrimeiraInterface.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
-    <Transaction>2024/08/03 15:05:28.802,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
-    <Transaction>2024/08/03 15:05:35.401,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\uPessoa.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
+	<Transactions>
+    <Transaction>2024/08/03 14:14:46.000.919,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/03 14:15:15.000.744,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\uMain.pas</Transaction>
+    <Transaction>2024/08/03 14:15:15.000.744,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\uMain.dfm</Transaction>
+    <Transaction>2024/08/03 14:16:19.000.957,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\ProjetoInterface.dproj</Transaction>
+    <Transaction>2024/08/03 14:17:18.000.312,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
+    <Transaction>2024/08/03 14:20:36.000.690,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\uPrimeiraInterface.pas</Transaction>
+    <Transaction>2024/08/03 15:05:28.000.802,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
+    <Transaction>2024/08/03 15:05:35.000.401,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\uPessoa.pas</Transaction>
+    <Transaction>2024/09/29 15:52:10.000.573,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
+    <Transaction>2024/09/29 15:58:05.000.136,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\uPessoaJuridica.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
+    <Transaction>2024/11/23 18:03:07.879,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
+    <Transaction>2024/11/23 18:03:14.400,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\uPessoaFisica.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
+    <Transaction>2024/11/23 18:19:55.591,=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
+    <Transaction>2024/11/23 18:20:01.571,C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\uFactoryPessoa.pas=C:\Users\Paulo\Desktop\Master view\desenv\delphi\exercicios\delphi\12 interfaces\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

@@ -12,7 +12,9 @@ type
     EdtSobrenome: TEdit;
     BtnCriaPessoa: TButton;
     MemoTexto: TMemo;
+    BtnCriaPessoaJuridica: TButton;
     procedure BtnCriaPessoaClick(Sender: TObject);
+    procedure BtnCriaPessoaJuridicaClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -26,13 +28,24 @@ implementation
 
 {$R *.dfm}
 
-uses uPessoa;
+uses {uPessoa, uPessoaFisica, uPessoaJuridica,} uFactoryPessoa;
 
 procedure TFrmMain.BtnCriaPessoaClick(Sender: TObject);
 var
    Informacao : String;
 begin
-   Informacao := TPessoa.New.Nome(EdtNome.Text).Sobrenome(EdtSobrenome.Text).NomeCompleto;
+//   Informacao := TPessoaFisica.New.Nome(EdtNome.Text).Sobrenome(EdtSobrenome.Text).NomeCompleto;
+  Informacao := TFactoryPessoa.New.PessoaFisica.Nome(EdtNome.Text).Sobrenome(EdtSobrenome.Text).NomeCompleto;
+
+   MemoTexto.Lines.Add(Informacao);
+end;
+
+procedure TFrmMain.BtnCriaPessoaJuridicaClick(Sender: TObject);
+var
+  Informacao : String;
+begin
+//  Informacao := TPessoaJuridica.New.Nome(EdtNome.Text).Sobrenome(EdtSobrenome.Text).NomeCompleto;
+  Informacao := TFactoryPessoa.New.PessoaJuridica.Nome(EdtNome.Text).Sobrenome(EdtSobrenome.Text).NomeCompleto;
 
    MemoTexto.Lines.Add(Informacao);
 end;

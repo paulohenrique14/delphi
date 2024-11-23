@@ -4,7 +4,10 @@ uses
   Vcl.Forms,
   uMain in 'uMain.pas' {FrmMain},
   uPrimeiraInterface in 'uPrimeiraInterface.pas',
-  uPessoa in 'uPessoa.pas';
+  uPessoa in 'uPessoa.pas',
+  uPessoaJuridica in 'uPessoaJuridica.pas',
+  uPessoaFisica in 'uPessoaFisica.pas',
+  uFactoryPessoa in 'uFactoryPessoa.pas';
 
 {$R *.res}
 
